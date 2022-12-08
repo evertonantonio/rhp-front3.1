@@ -147,23 +147,57 @@ const PagesHome = () => {
       <p className="pesp">Horário</p>
 
       <div className="divhorario">
-      <p>Horário de Início:</p>
-        <input
-          type="time"
+              <p>Horário de Inicio:</p>
+
+        <select      type="time"
           className="input"
           value={reuniao.horarioInicio}
           onChange={aoDigitar}
-          name="horarioInicio"
-        ></input>
+          name="horarioInicio">
+           <option>08h:00</option>
+                  <option>08h:30</option>
+                  <option>09h:00</option>
+                  <option>09h:30</option>
+                  <option>10h:00</option>
+                  <option>10h:30</option>
+                  <option>11h:00</option>
+                  <option>11h:30</option>
+                  <option>12h:00</option>
+                  <option>12h:30</option>
+                  <option>13h:00</option>
+                  <option>13h:30</option>
+                  <option>14h:00</option>
+                  <option>14h:30</option>
+                  <option>15h:00</option>
+                  <option>15h:30</option>
+                  <option>16h:00</option>
+        </select>
        
         <p>Horário de Término:</p>
-        <input
-          type="time"
+
+         <select         type="time"
           className="input"
           value={reuniao.horarioFinal}
           onChange={aoDigitar}
-          name="horarioFinal"
-        ></input>
+          name="horarioFinal">
+                  <option>09h:00</option>
+                  <option>09h:30</option>
+                  <option>10h:00</option>
+                  <option>10h:30</option>
+                  <option>11h:00</option>
+                  <option>11h:30</option>
+                  <option>12h:00</option>
+                  <option>12h:30</option>
+                  <option>13h:00</option>
+                  <option>13h:30</option>
+                  <option>14h:00</option>
+                  <option>14h:30</option>
+                  <option>15h:00</option>
+                  <option>15h:30</option>
+                  <option>16h:00</option>
+                  <option>16h:30</option>
+                  <option>17h:00</option>
+        </select>
       </div>
       <hr></hr>
 
