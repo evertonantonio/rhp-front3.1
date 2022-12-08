@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? família=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  background-color: #ffffff;
+  font-family: "Poppins";
+}
+
+.nav {
+  background-color: rgb(0, 0, 58);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.153);
+  width: 100%;
+  height: 50px;
+}
+
+.pages-home {
+  margin: 9%;
+  margin-top: 4%;
+}
+
+img.Logosecund {
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+hr.line {
+  border: 1px solid #d5d5d5;
+  transform: rotate(-0.16deg);
+  background-color: #d5d5d5;
+}
+
+
+
+.dra {
+  width: 100px;
+  height: 100px;
+  
+}
+
+.divagenda {
+  columns: 2;
+}
+
+.pdra {
+  margin-left: -80%;
+  margin-bottom: 10%;
+  font-size: 16pt;
+}
+
+.divhorario {
+  columns: 2;
+}
+
+.pesp {
+  font-weight: bold;
+}
+
+.plocal {
+  margin-left: -80%;
+  margin-top: -9%;
+}
+
+.ag {
+  color: #ffffff;
+  margin: 10px;
+  margin-left: 70px;
+}
+
+.input {
+  border-radius: 6px;
+  color: rgb(116, 116, 116);
+  margin-right: 30px;
+}
+
+.logonav {
+  margin-top: 5px;
+  margin-left: 160px;
+  width: 40px;
+  height: 40px;
+}
+
+.btnadd {
+  background-color: forestgreen;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  width: 110px;
+  height: 30px;
+  margin-left: 91%;
+}
+
+.btncan {
+  background-color: crimson;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  width: 110px;
+  height: 30px;
+}
+
+.Add {
+  font-size: 11pt;
+  background-color: rgb(93, 93, 255);
+  color: #ffffff;
+  border-radius: 6px;
+  
+}
+
+.btnSair {
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 850px;
+}
